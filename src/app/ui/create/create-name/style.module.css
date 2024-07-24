@@ -1,0 +1,53 @@
+
+.form {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 8px;
+}
+
+.form > input {
+    color: #fff;
+    background-color: #252525;
+    padding: 10px 12px;
+    font-size: 14px;
+    outline: none;
+    width: 100%;
+    text-align: left;
+    border-radius: 8px;
+    border: solid 1px #737373;
+    height: 43px;
+}
+
+.form > input::placeholder {
+    color: #a3a3a3;
+    font-weight: 600;
+}
+
+.form > button {
+    color: rgb(7, 7, 7);
+    background-color: #fff;
+    padding: 10px 12px;
+    font-size: 14px;
+    outline: none;
+    width: 100%;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+}
+
+.form > button > img {
+    height: 20px;
+}
+
+.form > button:disabled {
+    cursor: not-allowed;
+    background-color: #aaaa;
+}
